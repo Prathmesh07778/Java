@@ -1,3 +1,5 @@
+package DailyCodes.Conditional_Statements.Switch;
+
 class Switch_demo1 {
 
     public static void main(String args[]
@@ -14,7 +16,7 @@ class Switch_demo1 {
                     System.out.println("Two");
                     break;
             
-            default:
+            default:implements Comparator<Player>
                  System.out.println("Error");
             
         }

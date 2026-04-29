@@ -1,4 +1,4 @@
-package DailyCodes.Collection;
+package DailyCodes.Collection.Enum;
 
 
 import java.util.*;
@@ -16,7 +16,7 @@ class EnumCursor{
 
         System.out.println(v);
 
-        Enumeration itr = v.elements();
+        Enumeration<String> itr = v.elements();
 
         while (itr.hasMoreElements()) {
             

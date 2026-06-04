@@ -1,7 +1,7 @@
 package Asgnpract.Array;
 
 
- // Q10. Real-time example: Store marks of students and print average
+ //  Real-time example: Store marks of students and print average
 
 import java.util.Scanner;
 

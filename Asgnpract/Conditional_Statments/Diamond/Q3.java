@@ -1,0 +1,29 @@
+package Asgnpract.Conditional_Statments.Diamond;
+
+
+import java.util.Scanner;
+
+public class Q3 {
+    public static void main(String[] args) {
+ 
+        Scanner sc = new Scanner(System.in);
+ 
+        int n = sc.nextInt();
+        int d = 1;
+ 
+        for (int i = 1; i <= n; i++) {
+ 
+            for (int j = i; j < n; j++) System.out.print("   ");
+            for (int j = 1; j <= (2 * i - 1); j++) System.out.printf("%-3d", d++);
+ 
+            System.out.println();
+        }
+ 
+        for (int i = n - 1; i >= 1; i--) {
+            for (int j = i; j < n; j++) System.out.print("   ");
+            for (int j = 1; j <= (2 * i - 1); j++) System.out.printf("%-3d", d++);
+ 
+            System.out.println();
+        }
+    }
+}

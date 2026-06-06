@@ -1,4 +1,5 @@
 package Asgnpract.Conditional_Statments.Invereted_Triangle;
+
 import java.util.Scanner;
 
 public class Q1 {
